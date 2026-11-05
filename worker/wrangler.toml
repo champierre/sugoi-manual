@@ -1,0 +1,12 @@
+name = "sugoi-manual-feedback"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+
+[vars]
+GITHUB_REPO = "champierre/sugoi-manual"
+ALLOWED_ORIGIN = "https://champierre.github.io"
+ISSUE_LABEL = "修正依頼"
+
+# secrets (wrangler secret put で登録):
+#   GITHUB_TOKEN     … Issue 作成権限 (Issues: write) を持つ fine-grained PAT
+#   TURNSTILE_SECRET … (任意) Cloudflare Turnstile のシークレット。未設定なら検証しない

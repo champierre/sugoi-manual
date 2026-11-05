@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: マニュアルの修正を依頼する (フォーム)
+    url: https://champierre.github.io/sugoi-manual/feedback
+    about: GitHub アカウントがなくても送れる修正依頼フォームです

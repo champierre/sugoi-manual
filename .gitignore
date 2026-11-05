@@ -1,0 +1,7 @@
+node_modules
+docs/.vitepress/dist
+docs/.vitepress/cache
+worker/node_modules
+worker/.wrangler
+worker/.dev.vars
+.DS_Store

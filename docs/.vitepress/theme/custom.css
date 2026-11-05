@@ -1,0 +1,7 @@
+/* 写真・スクリーンショットはスマホ幅に合わせて縮める */
+.vp-doc img { max-width: 100%; height: auto; border-radius: 8px; }
+/* 手順の写真を横並び(スマホでは縦積み)にする */
+.steps { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin: 1rem 0; }
+.steps figure { margin: 0; }
+.steps figcaption { font-size: 0.9rem; color: var(--vp-c-text-2); margin-top: 0.4rem; }
+.vp-doc h2 { font-size: 1.4rem; }
