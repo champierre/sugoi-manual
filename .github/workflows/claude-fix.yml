@@ -3,7 +3,7 @@
 #   1. Claude GitHub App をインストール (https://github.com/apps/claude) ※ または claude の /install-github-app
 #   2. リポジトリの Secrets に ANTHROPIC_API_KEY を登録
 #   3. ラベル `approved` と `修正依頼` を作成
-name: Claude: implement approved feedback
+name: "Claude: implement approved feedback"
 
 on:
   issues:
