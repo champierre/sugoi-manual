@@ -8,7 +8,7 @@ export const FEEDBACK_ENDPOINT = 'https://sugoi-manual-feedback.example.workers.
 
 export const keyclickerPages = [
   { text: 'キークリッカーとは', link: '/keyclicker/' },
-  { text: 'ひな型をコピーする', link: '/keyclicker/01-template' },
+  { text: '光るキークリッカーのひな型', link: '/keyclicker/01-template' },
   { text: 'シェイプをはりつける', link: '/keyclicker/02-attach-shape' },
   { text: 'シェイプを整列させる', link: '/keyclicker/03-align' },
   { text: 'キートップをまとめる', link: '/keyclicker/04-union' },
@@ -18,6 +18,7 @@ export const keyclickerPages = [
   { text: 'LEDをつける', link: '/keyclicker/08-led' },
   { text: '電池をつける', link: '/keyclicker/09-battery' },
   { text: 'スイッチを組み立てる', link: '/keyclicker/10-assemble' },
+  { text: 'ひな型(光らないタイプ)', link: '/keyclicker/11-plain-template' },
 ]
 
 export default defineConfig({
